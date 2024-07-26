@@ -4,6 +4,10 @@ _Automate your LinkedIn job applications with ease!_
 
 This Python and Selenium-based bot automates applying to jobs using the Easy Apply feature on LinkedIn.
 
+_26-Jul-24: If you are getting `OSError: [WinError 193] %1 is not a valid Win32 application`, 
+please update your Chrome browser as well as all the Python packages. See instructions
+[here](https://github.com/voidbydefault/EasyApplyBot/issues/64#issuecomment-2253114234)._
+
 ## Key Features
 
 - Apply to thousands of jobs effortlessly.
@@ -12,7 +16,7 @@ This Python and Selenium-based bot automates applying to jobs using the Easy App
 
 ## Important
 
-- Use at your own risk. LinkedIn may restrict or suspend accounts for bot usage.
+- Use at your own risk. LinkedIn may restrict or suspend accounts for bot usage (hasn't happened so far).
 - Consider this an educational project.
 
 ## Getting Started

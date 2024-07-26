@@ -1,15 +1,18 @@
-# Add your LinkedIn email ID and password. WARNING: KEEP THIS OFFLINE ON YOUR PC AND DO NOT COMMIT/UPLOAD.
+# Add your LinkedIn email ID and password.
+# *** WARNING: KEEP THIS CONFIG OFFLINE ON YOUR PC AND DO NOT COMMIT/UPLOAD ***
 email: email@domain.com
 password: yourpassword
 
-# Anti-lock default is False to prevent your PC from sleeping to allow bot to run uninterrupted.
-# Set it to True if you wish to disable this functionality.
+# Anti-lock default is False to prevent your PC from sleeping to
+# allow bot to run uninterrupted. Set it to True if you wish  to
+# disable this functionality.
 disableAntiLock: False
 
 # Set to True if you wish to search for remote jobs only.
 remote: False
 
-# Set to True if you wish to search for jobs marked as "under 10 applicants" (default is False).
+# Set to True if you wish to search for jobs marked as "under 10
+# applicants" (default is False).
 lessthanTenApplicants: False
 
 # Set to True or False to suit your preference. Multiple True allowed.
@@ -38,14 +41,17 @@ date:
  week: False
  24 hours: False
 
-# Remove hash sign to add positions. You can add as many as you need, but preserve formatting
+# Remove hash sign to add positions. You can add as many as you need,
+# but preserve formatting
 positions:
  #- First position
  #- A second position
  #- A third position
  #- ...
 
-# Remove hash sign to add locations. You can add as many as you need including adding 'Remote' as a location but first location must be a valid country.
+# Remove hash sign to add locations. You can add as many as you need
+# including adding 'Remote' as a location but first location must be
+# a valid country.
 locations:
  #- First location
  #- A second location
@@ -56,10 +62,12 @@ locations:
 # Set to True if you are residing in the country of job
 residentStatus: False
 
-# Distance from the location added above. Allowed values are {0, 5, 10, 25, 50, 100}, use only one.
+# Distance from the location added above. Allowed values are
+# {0, 5, 10, 25, 50, 100}, use only one.
 distance: 100
 
-# Optional directory to save logs, does not work sometimes. Does not work sometimes, so leave it unchanged.
+# Optional directory to save logs, does not work sometimes.
+# Does not work sometimes, so leave it unchanged.
 outputFileDirectory: ~/Documents/Applications/EasyApplyBot/EasyApplyBot/
 
 # Companies you don't want to apply.
@@ -77,9 +85,10 @@ posterBlacklist:
  #- name1
  #- name2
 
-# Path to your CV/resume and cover letter (remove hash sign). These paths often don't work
-# so apply one job manually once, bot will reuse manually uploaded CV for automating the task.
-# Note: Prefer a path without spaces, i.e. instead of "Me My" to "MeMy" or "Me_My".
+# Path to your CV/resume and cover letter (remove hash sign). These
+# paths often don't work so apply one job manually once,  bot will
+# reuse manually uploaded CV for automating the task. Note: Prefer
+# a path without spaces, i.e. instead of "Me My" to "MeMy" or "Me_My".
 uploads:
  resume: C:\Users\myDirectory\Resume.pdf
  # Cover letter is optional
@@ -92,26 +101,33 @@ uploads:
 checkboxes:
  # Do you have a valid driver's license? (yes/no checkbox)
  driversLicence: True
- # Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? (yes/no checkbox)
- # This is relative to the location and your citizenship applying above, and same with legallyAuthorized.
+ # Will you now, or in the future, require sponsorship for
+ # employment visa status (e.g. H-1B visa status)? (yes/no checkbox)
+ # This is relative to the location and your citizenship applying
+ # above, and same with legallyAuthorized.
  requireVisa: False
  # Are you legally authorized to work in COUNTRY? (yes/no checkbox)
  legallyAuthorized: False
- # Do you have necessary licenses or certifications required in your profession? E.g. CPA, CA, CFA, professional license
+ # Do you have necessary licenses or certifications required in your
+ # profession? E.g. CPA, CA, CFA, professional license
  certifiedProfessional: True
- # We must fill this position urgently. Can you start immediately? (yes/no checkbox)
+ # We must fill this position urgently. Can you start immediately?
+ # (yes/no checkbox)
  urgentFill: True
- # Are you comfortable commuting or work on-site to this job's location? (yes/no checkbox)
+ # Are you comfortable commuting or work on-site to this job's location?
+ # (yes/no checkbox)
  commute: True
  # Are you comfortable working in a remote environment? (yes/no checkbox)
  remote: True
- # Are you comfortable taking a drug in accordance with local/state laws? (yes/no checkbox)
+ # Are you comfortable taking a drug in accordance with local/state laws?
+ # (yes/no checkbox)
  drugTest: True
  # Are you willing to complete an assessment? (yes/no checkbox)
  assessment: True
  # Do you have security clearance of [xxx] country? (yes/no checkbox)
  securityClearance: False
- # Have you completed the following level of education: DEGREE TYPE? Remove applicable # signs (yes/no checkbox)
+ # Have you completed the following level of education: DEGREE TYPE? Remove
+ # applicable # signs (yes/no checkbox)
  degreeCompleted:
   # - High School Diploma
   # - Bachelor's Degree
@@ -121,7 +137,8 @@ checkboxes:
   # - Doctor of Philosophy
   # - Doctor of Medicine
   # - Doctor of Law
- # Are you willing to undergo a background check, in accordance with local law/regulations?
+ # Are you willing to undergo a background check, in accordance with local
+ # law/regulations?
  backgroundCheck: True
 
 # ------------ Additional parameters: universityGpa ---------------
