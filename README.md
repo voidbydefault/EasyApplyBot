@@ -21,14 +21,12 @@ please delete `chromedriver` from your user directory \drivers\chromedriver (use
 
 ## Getting Started
 
-- **Download the Windows executable:** No Python setup required! Just configure `config.yaml` and run the
-  bot. See [Releases page](https://github.com/voidbydefault/EasyApplyBot/releases/tag/v0).
-- **Run via source code:** For advanced users. Requires Python setup. Watch the video tutorial
-  on [YouTube](https://youtu.be/IXflenwJzhQ).
+- Watch the video tutorial
+  on [YouTube](https://youtu.be/oQEAcAur4Vk) and previous video [YouTube](https://youtu.be/IXflenwJzhQ).
 
 ## Additional Resources
 
-- Optional BI dashboard setup: Watch this [YouTube](https://youtu.be/4LH8WTrMCxw) video.
+- "Bot monitor" BI dashboard setup: Watch this [YouTube](https://youtu.be/4LH8WTrMCxw) video.
 - **Troubleshooting:** Encounter errors? Ensure dependencies are installed.
 - **Need assistance?** Comment under my Youtube videos for general inquiries.
 - **Genuine issues** Raise issues page at my GitHub.
