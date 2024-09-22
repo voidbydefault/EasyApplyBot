@@ -12,7 +12,7 @@ please delete `chromedriver` from your user directory \drivers\chromedriver (use
 
 - Apply to thousands of jobs effortlessly.
 - Track application dates and times for performance analysis. <span style="color:green">(New!)</span>
-- Windows executable available for easy setup. <span style="color:green">(New!)</span>
+- ~~- Windows executable available for easy setup. <span style="color:green">(New!)</span>~~
 
 ## Important
 
