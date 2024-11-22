@@ -40,3 +40,12 @@ Buy me a coffee through [PayPal](https://paypal.me/voidbydefault) if you find th
 - Original developer: [Nathan Duma](https://github.com/NathanDuma)
 - Significant code updates: [Micheal Dingess](https://github.com/madingess/)
 - Maintenance and improvements: [voidbydefault](https://github.com/voidbydefault)
+- Maintenance and improvements India Specific(fork from voidbydefault if you are not from India): [NishaKumari1010](https://github.com/NishaKumari1010)
+
+## Steps
+
+- create a new config.yaml file and add all the contents from config_template.yaml then add your details(do not commit personal details)
+- create a virtual environment using the command virtualenv env
+- cd into env and then run .\Scripts\Activate (for windows) to activate virtual env
+- run pip install -r requirements.txt
+- run main.py

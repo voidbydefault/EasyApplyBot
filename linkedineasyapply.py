@@ -404,6 +404,14 @@ class LinkedinEasyApply:
                     if 'driver\'s licence' in radio_text or 'driver\'s license' in radio_text:
                         answer = self.get_answer('driversLicence')
 
+                    elif any(keyword in radio_text for keyword in
+                             ['current ctc', 'current salary', 'current compensation']):
+                        answer = 1750000  # Set the answer to 1750000 for current CTC questions
+
+                    elif any(keyword in radio_text for keyword in
+                             ['expected ctc', 'expected salary', 'expected compensation']):
+                        answer = 2500000  # Set the answer to 1750000 for current CTC questions
+
                     elif any(keyword in radio_text.lower() for keyword in
                              [
                                  'Aboriginal', 'native', 'indigenous', 'tribe', 'first nations',
@@ -530,6 +538,12 @@ class LinkedinEasyApply:
                     elif 'grade point average' in question_text:
                         to_enter = self.university_gpa
 
+                    elif 'expected ctc' in question_text or 'expected CTC' in question_text or 'ECTC' in question_text or 'expected annual salary' in question_text:
+                        to_enter = self.personal_info['expectedCTC']
+
+                    elif 'current ctc' in question_text or 'current CTC' in question_text or 'CCTC' in question_text or 'current annual salary' in question_text:
+                        to_enter = self.personal_info['currentCTC']
+
                     elif 'first name' in question_text:
                         to_enter = self.personal_info['First Name']
 
@@ -565,6 +579,13 @@ class LinkedinEasyApply:
                             to_enter = int(self.salary_minimum)
                         else:
                             to_enter = float(self.salary_minimum)
+                        self.record_unprepared_question(text_field_type, question_text)
+
+                    elif 'how many days' in question_text or 'able to join' in question_text:
+                        if text_field_type == 'numeric':
+                            to_enter = int(self.notice_period)
+                        else:
+                            to_enter = str(self.notice_period)
                         self.record_unprepared_question(text_field_type, question_text)
 
                     if text_field_type == 'numeric':
