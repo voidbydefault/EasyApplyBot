@@ -1,3 +1,6 @@
+# Important (03-Dec-24)
+LinkedIn has implemented backend changes that have rendered the bot temporarily unusable. I am currently working on a fix. If you have the expertise and can assist, please feel free to contribute by submitting a pull request.
+
 # LinkedIn Easy Apply Bot
 
 _Automate your LinkedIn job applications with ease!_
