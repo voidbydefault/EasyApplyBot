@@ -1,5 +1,8 @@
 # Change log #
 
+### December 2024 update: ###
+1. Adopt frontend changes by LinkedIn that were failing the bot. Thanks to [madingess](https://github.com/madingess/EasyApplyBot/).
+
 ### September 2024 update: ###
 1. Introduced functionality to use previous Chrome session to avoid new login everytime.
 2. Updated PowerBI dashboard (named to `BOT_monitor.pbix`).
