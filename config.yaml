@@ -1,7 +1,7 @@
 # Add your LinkedIn email ID and password.
 # *** WARNING: KEEP THIS CONFIG OFFLINE ON YOUR PC AND DO NOT COMMIT/UPLOAD ***
-email: email@domain.com
-password: yourpassword
+email: wediberih24@gmail.com
+password: Trhas95@#
 
 # Anti-lock default is False to prevent your PC from sleeping to
 # allow bot to run uninterrupted. Set it to True if you wish  to
@@ -17,7 +17,7 @@ lessthanTenApplicants: False
 
 # Set to True or False to suit your preference. Multiple True allowed.
 experienceLevel:
- internship: False
+ internship: True
  entry: True
  associate: True
  mid-senior level: True
@@ -30,9 +30,9 @@ jobTypes:
  contract: True
  part-time: False
  temporary: True
- internship: False
- other: False
- volunteer: False
+ internship: True
+ other: True
+ volunteer: True
 
 # Set ONLY one as True to suit your preference.
 date:
@@ -53,9 +53,9 @@ positions:
 # including adding 'Remote' as a location but first location must be
 # a valid country.
 locations:
- #- First location
- #- A second location
- #- A third location
+ #- Charlotte, NC
+ #- United State
+ #- Canada
  #- ...
  #- Remote
 
@@ -72,8 +72,7 @@ outputFileDirectory: ~/Documents/Applications/EasyApplyBot/EasyApplyBot/
 
 # Companies you don't want to apply.
 companyBlacklist:
- #- company
- #- company2
+
 
 # Job titles you want to avoid applying. Use it to refine performance of bot.
 titleBlacklist:
@@ -90,7 +89,7 @@ posterBlacklist:
 # reuse manually uploaded CV for automating the task. Note: Prefer
 # a path without spaces, i.e. instead of "Me My" to "MeMy" or "Me_My".
 uploads:
- resume: C:\Users\myDirectory\Resume.pdf
+ resume: file:///C:/Users/830/Desktop/Me/ALL-DESKTOP/Resume/Msgun-Berhe.Resume.AA.pdf
  # Cover letter is optional
  #coverLetter: C:\Users\myDirectory\CoverLettter.pdf
 
@@ -107,7 +106,7 @@ checkboxes:
  # above, and same with legallyAuthorized.
  requireVisa: False
  # Are you legally authorized to work in COUNTRY? (yes/no checkbox)
- legallyAuthorized: False
+ legallyAuthorized: True
  # Do you have necessary licenses or certifications required in your
  # profession? E.g. CPA, CA, CFA, professional license
  certifiedProfessional: True
@@ -131,30 +130,27 @@ checkboxes:
  degreeCompleted:
    - High School Diploma
    - Bachelor's Degree
-  # - Associate's Degree
+
   # - Master's Degree
-  # - Master of Business Administration
-  # - Doctor of Philosophy
-  # - Doctor of Medicine
-  # - Doctor of Law
+
  # Are you willing to undergo a background check, in accordance with local
  # law/regulations?
  backgroundCheck: True
 
 # ------------ Additional parameters: universityGpa ---------------
-universityGpa: 4.0
+universityGpa: 3.7
 
 # ------------ Additional parameters: salaryMinimum ---------------
-salaryMinimum: 65000
+salaryMinimum: 75000
 
 # ------------ Additional parameters: languages ---------------
 languages:
- english: Native or bilingual # Allowed choices { None, Conversational, Professional, Native or bilingual }
- # arabic: Conversational
- # french: Professional
+ english: Native or bilingual # Professional { None, Conversational, Professional, Native or bilingual }
+
+
 
 # ------------ Additional parameters: noticePeriod in weeks ---------------
-noticePeriod: 2
+noticePeriod: 1
 
 # ------------ Additional parameters: years of experience ---------------
 # How many years of work experience do you have ...? (whole numbers only).
@@ -163,88 +159,130 @@ noticePeriod: 2
 # A few samples are added below, you may not need all of these. 'default'
 # value will be used as a fall-back input to additional questions.
 experience:
- # normal ones
- Accounting/Auditing: 0
- Administrative : 0
- Advertising : 0
- Analyst : 0
- Art/Creative: 0
- Business Development: 0
- Consulting: 0
- Customer Service: 0
- Distribution Design: 0
- Education: 0
- Engineering: 0
- Finance: 0
- General Business: 0
- Health Care Provider: 0
- Human Resources: 0
- Information Technology: 0
- Legal: 0
- Management: 0
- Manufacturing: 0
- Marketing: 0
- Public Relations: 0
- Purchasing: 0
- Product Management: 0
- Project Management: 0
- Production: 0
- Quality Assurance: 0
- Research: 0
- Sales: 0
- Science: 0
- Strategy/Planning: 0
- Supply Chain: 0
- Training: 0
- Writing/Editing: 0
- VBA: 0
- PowerBI: 0
- PowerQuery: 0
- Excel: 0
- PowerPoint: 0
- Word: 0
- SQL Server: 0
- Communication: 0
- Financial markets: 0
- Business: 0
- Financial services: 0
- Team leadership: 0
- Cash flow: 0
- Hedging: 0
- Treasury services: 0
- Microsoft Power BI: 0
- Accounting: 0
- Auditing: 0
- Financial modeling: 0
- Budgeting & forecasting: 0
- FP&A: 0
- PQE: 0
- Training & Development: 0
- #python: 0
- #selenium: 0
+ # 5
+Java  #5
+JavaScript #5
+SQL #5
+J2EE @5
+Web #$
+HTML #4
+CSS #4
+jQuery #%
+TypeScript #4
+XML #5
+Bootstrap #$
+Web Services 
+REST #5
+SOAP
+Web/App Servers
+Tomcat #5
+WebLogic
+RESTful #5
+GraphQL #2
+Microservices #5
+Web Flux #3
+Frameworks
+JDBC #3
+Spring #5
+Spring MVC #5
+Spring Boot #5
+Spring Cloud #5
+JPA #5
+Hibernate #5
+NodeJS #1
+React.js #3
+Next.js #1
+Redis #4
+Testing #5
+Mockito #5
+Integration Test #5
+Selenium #1
+Amazon EKS #2
+Kafka #2
+Elasticsearch #2
+GitHub #5
+ServiceNow #4
+APIs #5
+JSON #5
+S3 #2
+SQS #2
+SNS #2
+EC2 #2
+CloudFormation #2
+RDS #2
+Lambda #2
+DynamoDB #1
+Angular #2
+Databases #5
+MySQL #5
+PostgreSQL #1
+Oracle
+NoSQL
+Design Patterns
+Singleton #5
+Command
+Prototype
+Factory
+CQRS
+Facade
+Builder
+SDLC
+Agile/Scrum #5
+DevOps
+Tools
+Maven #5
+Eclipse #3
+Visual Studio #3
+RabbitMQ
+IntelliJ IDEA #5
+Docker #2
+Kubernetes
+Postman #5
+Jenkins
+Gradle
+Star UML #5
+JUnit #5
+NetBeans
+Jira #5
+Continuous Integration (CI)
+Continuous Deployment (CD)
+TDD
+MAKER
+Cloud
+Platforms
+Windows
+Linux
+MacOS
  # default to put for any industry/skill that you did not list
  default: 0
 
 # ------------ Additional parameters: personal info ---------------
 personalInfo:
  Pronouns: Mr.
- First Name: FirstName
- Last Name: LastName
- Phone Country Code: Canada (+1) # See Linkedin for your country code, must be exact according to the international platform, i.e. Italy (+39) not Italia (+39)
- Mobile Phone Number: 1234567890
- Street address: 123 Fake Street
- City: Red Deer, Alberta # Include the state/province as well!
- State: YourState
- Zip: YourZip/Postal
- Linkedin: https://www.linkedin.com/in/my-linkedin-profile
- Website: https://www.my-website.com # github/website is interchangeable here
- MessageToManager: "Hi, I am interested to join your organization. Please have a look at my resume. Thank you." # Keep message short and within the quotes. This is a testing feature and may not work.
+ First Name: Msgun
+ Last Name: Berhe
+ Phone Country Code: Unitate State ofAmerica (+1) # See Linkedin for your country code, must be exact according to the international platform, i.e. Italy (+39) not Italia (+39)
+ Mobile Phone Number: 6412339915
+ Street address: 2226 shade valley Rd
+ City: Charlotte, NC
+ State: USA
+ Zip: 28205
+ Linkedin: https://www.linkedin.com/in/msgun-abrham/ 
+ Website: https://github.com/Msgun95
+ MessageToManager: "Hello Manage;
+
+I hope you're doing well. I’m excited to express my interest in joining your organization. My skills and experience align with your team's goals.
+
+Please find my resume attached. I’d love the opportunity to discuss how I can contribute.
+
+Thank you,
+Msgun Berhe.
 
 # ------------ Additional parameters: USA employment crap ---------------
 eeo:
- gender: None
- race: None
- veteran: None
- disability: None
- citizenship: yes
+ gender: Male
+ race: 2 or more race
+ veteran: no
+ disability: no
+ citizenship: Canadain
  clearance: no
