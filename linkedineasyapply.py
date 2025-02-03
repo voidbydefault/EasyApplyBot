@@ -67,7 +67,7 @@ class LinkedinEasyApply:
         current_url = self.browser.current_url
         page_source = self.browser.page_source
 
-        if '/checkpoint/challenge/' in current_url or 'security check' in page_source or 'quick verification' in page_source:
+        if '/checkpoint/challenge/' in current_url or 'security check' in page_source or 'quick verification' in page_source or 'Check your LinkedIn app' in page_source:
             input("Please complete the security check and press enter on this console when it is done.")
             time.sleep(random.uniform(5.5, 10.5))
 
@@ -475,6 +475,9 @@ class LinkedinEasyApply:
                     answer = self.get_answer("securityClearance")
 
                 elif 'north korea' in radio_text:
+                    answer = 'no'
+
+                elif 'convicted' in radio_text:
                     answer = 'no'
 
                 elif 'previously employ' in radio_text or 'previous employ' in radio_text:
