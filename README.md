@@ -1,5 +1,10 @@
 # LinkedIn Easy Apply Bot
 
+## Major announcement (26-Nov-25)
+I am working on an AI powered bot. It will be much smarter and lighter to use free tier of Gemini API. Stay tuned!
+
+
+## Classic version
 _Automate your LinkedIn job applications with ease!_
 
 This Python and Selenium-based bot automates applying to jobs using the Easy Apply feature on LinkedIn.
