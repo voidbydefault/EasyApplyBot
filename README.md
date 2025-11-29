@@ -1,9 +1,14 @@
 # LinkedIn Easy Apply Bot
 
 ## Major announcement (26-Nov-25)
-I am working on an AI powered bot. It will be much smarter and lighter to use free tier of Gemini API. Stay tuned!
+<S>I am working on an AI powered bot. It will be much smarter and lighter to use free tier of Gemini API. Stay tuned!</S>
+
+## AI powered version (29-Nov-25)
+It's now available as [LinkedIn Easy Apply AI](https://github.com/voidbydefault/linkedin-easyapply-ai). I will not be maintaining classic version anymore!
 
 
+
+--
 ## Classic version
 _Automate your LinkedIn job applications with ease!_
 
