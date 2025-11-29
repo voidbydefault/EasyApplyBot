@@ -49,3 +49,7 @@ Buy me a coffee through [PayPal](https://paypal.me/voidbydefault) if you find th
 - Original developer: [Nathan Duma](https://github.com/NathanDuma)
 - Significant code updates: [Micheal Dingess](https://github.com/madingess/)
 - Maintenance and improvements: [voidbydefault](https://github.com/voidbydefault)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=voidbydefault/EasyApplyBot&type=timeline&legend=top-left)](https://www.star-history.com/#voidbydefault/EasyApplyBot&type=timeline&legend=top-left)
